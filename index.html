@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="container-header">
+        <p id="text-logo"><span>Create</span> Your Logo</p>
+
+        <nav id="nav-bar">
+          <span
+            id="burguer"
+            class="material-symbols-rounded"
+            onclick="clickMenu()"
+          >
+            menu
+          </span>
+          <ul id="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="content-text">
+          <h1>Design a Logo <span>You Love</span></h1>
+          <p>No Signup Needed. Get Started For Free.</p>
+
+          <div class="search">
+            <input type="text" placeholder="Logo Name" />
+            <button type="submit">Generate</button>
+          </div>
+        </section>
+
+        <img
+          id="dragon"
+          src="./css/images/Dragon-Tower.svg"
+          alt="Dragon-Tower"
+        />
+      </main>
+
+      <footer>
+        <p>Entre em contao conosco <a href="https://github.com/gabriel491">@gabriel491</a></p>
+      </footer>
+    </div>
+    <script src="./JS/menu.js"></script>
+  </body>
+</html>
